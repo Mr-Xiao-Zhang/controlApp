@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/学习模式</title>
+    <g id="管控界面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-2-首页-切换" transform="translate(-32.000000, -259.000000)">
+            <g id="头像区" transform="translate(16.000000, 177.000000)">
+                <g id="icon/学习模式" transform="translate(16.000000, 82.000000)">
+                    <rect id="矩形" fill-opacity="0.01" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="16" height="16"></rect>
+                    <circle id="椭圆形" stroke="#666666" stroke-linejoin="round" cx="8" cy="4.33333333" r="3"></circle>
+                    <path d="M1.66666667,14.6666667 C1.66666667,11.8541667 3.725,9.22916667 5.46666667,8.66666667 C5.46666667,8.66666667 7.05,10.3541667 8,11.4791667 L10.5333333,8.66666667 C11.9583333,8.85416667 14.3333333,11.8541667 14.3333333,14.6666667" id="路径" stroke="#666666" stroke-linejoin="round"></path>
+                    <line x1="0.666666667" y1="14.6666667" x2="15.3333333" y2="14.6666667" id="路径" stroke="#666666" stroke-linecap="round" stroke-linejoin="round"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>切片</title>
+    <g id="管控界面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="04-1-家长中心" transform="translate(-32.000000, -370.000000)">
+            <g id="列表/我的备份" transform="translate(16.000000, 354.000000)">
+                <g id="icon/绑定/24" transform="translate(16.000000, 16.000000)">
+                    <rect id="矩形备份-9" fill="#DDDDDD" opacity="0" x="0" y="0" width="24" height="24"></rect>
+                    <g id="编组">
+                        <rect id="矩形" fill-opacity="0.01" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="24" height="24"></rect>
+                        <path d="M12,22 C17.52285,22 22,17.52285 22,12 C22,6.47715 17.52285,2 12,2 C6.47715,2 2,6.47715 2,12 C2,17.52285 6.47715,22 12,22 Z" id="路径" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M12,11.5 C13.3807,11.5 14.5,10.3807 14.5,9 C14.5,7.6193 13.3807,6.5 12,6.5 C10.6193,6.5 9.5,7.6193 9.5,9 C9.5,10.3807 10.6193,11.5 12,11.5 Z" id="路径" stroke="#333333" stroke-width="2" stroke-linejoin="round"></path>
+                        <path d="M5.011,19.166 C5.18285,16.5603 7.3508,14.5 10,14.5 L14,14.5 C16.6457,14.5 18.81145,16.55485 18.98835,19.15565" id="路径" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

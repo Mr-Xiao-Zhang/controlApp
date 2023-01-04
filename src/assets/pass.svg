@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-通过</title>
+    <g id="管控界面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="08-3-应用管理-待审批" transform="translate(-235.000000, -180.000000)">
+            <g id="列表/通过" transform="translate(16.000000, 160.000000)">
+                <g id="icon-通过" transform="translate(219.000000, 20.000000)">
+                    <rect id="矩形" fill-opacity="0.01" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="16" height="16"></rect>
+                    <path d="M8,14.6 C9.822524,14.6 11.472524,13.861262 12.666893,12.666893 C13.861262,11.472524 14.6,9.822524 14.6,8 C14.6,6.177476 13.861262,4.527476 12.666893,3.3330938 C11.472524,2.1387314 9.822524,1.4 8,1.4 C6.177476,1.4 4.527476,2.1387314 3.3330938,3.3330938 C2.1387314,4.527476 1.4,6.177476 1.4,8 C1.4,9.822524 2.1387314,11.472524 3.3330938,12.666893 C4.527476,13.861262 6.177476,14.6 8,14.6 Z" id="路径" stroke="#576CD3" stroke-linejoin="round"></path>
+                    <polyline id="路径" stroke="#576CD3" stroke-linecap="round" stroke-linejoin="round" points="5.33333333 8 7.33333333 10 11.3333333 6"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

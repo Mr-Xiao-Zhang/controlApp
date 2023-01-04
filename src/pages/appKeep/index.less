@@ -1,0 +1,72 @@
+@import '../../themes/index.less';
+
+.container {
+  min-height: 100vh;
+
+  .appKeep {
+    background: @bgColor;
+    padding: 16px 0 16px 16px;
+    height: calc(100vh - 48px);
+
+    :global(.adm-swipe-action) {
+      border-radius: 8px;
+    }
+
+    :global(.adm-index-bar-sticky .adm-index-bar-anchor-title) {
+      display: none;
+    }
+
+    :global(.adm-index-bar) {
+      background-color: transparent;
+    }
+
+    :global(.adm-index-bar-anchor) {
+      margin-bottom: 16px;
+    }
+
+    :global(.adm-index-bar-body) {
+      padding-right: 20px;
+    }
+
+    :global(.adm-index-bar-sidebar) {
+      right: -10px;
+    }
+
+    :global(.adm-button) {
+      font-size: 14px;
+    }
+
+    :global(.adm-list-item) {
+      background-color: @defaultCardBgColor;
+    }
+
+    .collapseContainer {
+      .item {
+        padding: 14px 0;
+        border-bottom: 0.5px solid #e4e4e4;
+        color: #666666;
+        font-size: 13px;
+
+        .rightActions {
+          --gap: 20px;
+          font-size: 13px;
+          color: @headerBgColor;
+
+          & > div:last-child {
+            color: #f95151;
+          }
+        }
+      }
+
+      .footer {
+        padding: 14px 0;
+        font-size: 13px;
+        color: @headerBgColor;
+      }
+    }
+  }
+}
+
+:global(.adm-list-item-content-main) {
+  padding: 0px;
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/在线状态</title>
+    <g id="管控界面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-2-首页-切换" transform="translate(-128.000000, -259.000000)">
+            <g id="头像区" transform="translate(16.000000, 177.000000)">
+                <g id="icon/在线状态" transform="translate(112.000000, 82.000000)">
+                    <rect id="矩形" fill-opacity="0.01" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="16" height="16"></rect>
+                    <path d="M0.60823488,5.54698443 C0.825848549,5.34075408 1.04997437,5.14535268 1.2799249,4.96078022 C5.42659253,1.63264748 11.4675154,1.82804519 15.3917685,5.54698443" id="路径" stroke="#666666" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M13.1742397,8.22809371 C10.316582,5.37043596 5.68342138,5.37043596 2.82576362,8.22809371" id="路径" stroke="#666666" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M10.9567091,10.3656851 C9.32375655,8.73273256 6.67624678,8.73273256 5.04329421,10.3656851" id="路径" stroke="#666666" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M8.00000167,14.01109 C8.55228167,14.01109 9.00000167,13.56337 9.00000167,13.01109 C9.00000167,12.45881 8.55228167,12.01109 8.00000167,12.01109 C7.44772167,12.01109 7.00000167,12.45881 7.00000167,13.01109 C7.00000167,13.56337 7.44772167,14.01109 8.00000167,14.01109 Z" id="路径" fill="#666666"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

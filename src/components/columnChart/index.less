@@ -1,0 +1,66 @@
+@import '../../themes/index.less';
+
+.columnChart {
+  background: @defaultCardBgColor;
+  border-radius: 8px;
+  padding: 12px;
+
+  .header {
+    font-weight: 400;
+    margin-bottom: 6px;
+
+    & > div:first-child {
+      font-size: 13px;
+      color: #999999;
+    }
+
+    .refreshBtn {
+      font-size: 12px;
+      color: @headerBgColor;
+    }
+
+    .loadingImg {
+      animation: fadenum 5s infinite;
+    }
+
+    @keyframes fadenum {
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  }
+
+  .title {
+    font-size: 17px;
+    font-weight: 500;
+    color: #333333;
+    margin-bottom: 16px;
+  }
+
+  .chart {
+    height: 300px;
+  }
+
+  .loading {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer {
+    margin-top: 16px;
+
+    & > div:first-child {
+      font-size: 15px;
+      color: #333333;
+      font-weight: 500;
+    }
+
+    & > div:last-child {
+      font-size: 13px;
+      font-weight: 400;
+      color: #999999;
+    }
+  }
+}

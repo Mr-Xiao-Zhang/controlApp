@@ -1,0 +1,33 @@
+.container {
+  --gap: 10px;
+  border-radius: 12px 12px 0 0;
+
+  .header {
+    padding: 16px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #576cd3;
+    border-bottom: 0.5px solid #cdcdcd;
+    background: #ffffff;
+    border-radius: 12px 12px 0 0;
+  }
+
+  .footer {
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    --gap: 16px;
+
+    & button {
+      width: 120px;
+      border-radius: 4px;
+    }
+
+    .btn {
+      background: rgba(0, 0, 0, 0.05);
+      width: 120px;
+      color: #576cd3;
+    }
+  }
+}

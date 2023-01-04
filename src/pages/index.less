@@ -1,0 +1,109 @@
+@import '../themes/index.less';
+
+.container {
+  min-height: 100vh;
+  background: @bgColor;
+  padding-bottom: 40px;
+
+  .header {
+    position: relative;
+    height: 206px;
+
+    .topbar {
+      color: #ffffff;
+      padding: 20px 16px;
+      height: 146px;
+      background: @headerBgColor;
+
+      & > div:first-child {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 7px;
+
+        .leftText {
+          font-size: 20px;
+        }
+
+        .rightText {
+          font-size: 13px;
+          --gap: 2px;
+        }
+      }
+
+      .text {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .body {
+    padding: 16px;
+
+    .vip {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #ffffff;
+      background: @vipCardBgColor;
+      height: 60px;
+      border-radius: 8px;
+      padding: 12px 16px 12px 12px;
+
+      & > div:first-child {
+        & > div:first-child {
+          display: flex;
+          font-size: 14px;
+          font-weight: 500;
+
+          .img {
+            margin-right: 4px;
+          }
+        }
+
+        & > div:last-child {
+          font-size: 10px;
+          font-weight: 400;
+        }
+      }
+
+      .btn {
+        width: 72px;
+        height: 24px;
+        border-radius: 16px;
+        font-size: 12px;
+        padding: 0;
+        font-weight: 500;
+        color: @headerBgColor;
+      }
+    }
+
+    .functionModule {
+      .box {
+        width: 76px;
+        height: 76px;
+        background: @defaultCardBgColor;
+        border-radius: 8px;
+      }
+
+      .text {
+        font-weight: 400;
+        color: #333333;
+        font-size: 14px;
+      }
+    }
+
+    .switchTab {
+      .item {
+        font-size: 17px;
+        background: #ffffff;
+        height: 56px;
+        border-radius: 8px;
+      }
+
+      .itemActive {
+        background: #cccccc;
+      }
+    }
+  }
+}

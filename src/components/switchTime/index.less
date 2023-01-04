@@ -1,0 +1,55 @@
+@import '../../themes/index.less';
+
+.title {
+  font-weight: 500;
+  color: #333333;
+  font-size: 17px;
+}
+
+.timeList {
+  background: @defaultCardBgColor;
+  border-radius: 8px;
+  padding: 20px;
+
+  .item {
+    height: 40px;
+    background: #e8e8e8;
+    border-radius: 6px;
+    opacity: 0.96;
+  }
+
+  .itemActive {
+    background: #ffffff;
+    color: #576cd3;
+    border: 1px solid #576cd3;
+  }
+}
+
+.timeManage {
+  background: @defaultCardBgColor;
+  border-radius: 8px;
+  padding: 20px;
+
+  .desc {
+    font-size: 12px;
+    font-weight: 400;
+    color: #999999;
+  }
+
+  .itemList {
+    padding: 20px 0;
+
+    .item {
+      height: 40px;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #576cd3;
+      border-radius: 6px;
+      font-weight: 500;
+      color: #576cd3;
+      font-size: 15px;
+    }
+  }
+}

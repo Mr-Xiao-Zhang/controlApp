@@ -1,0 +1,38 @@
+@import '../../themes/index.less';
+
+.container {
+  background: @defaultCardBgColor;
+  border-radius: 8px;
+  padding: 12px;
+
+  .left {
+    --gap: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #333333;
+
+    .icon {
+      width: 32px;
+      height: 32px;
+      background: #db417c;
+      border-radius: 4px;
+    }
+  }
+
+  .right {
+    font-size: 13px;
+    font-weight: 400;
+    color: @headerBgColor;
+    --gap: 16px;
+
+    .pass {
+      color: @headerBgColor;
+      --gap: 1px;
+    }
+
+    .del {
+      color: #f95151;
+      --gap: 1px;
+    }
+  }
+}

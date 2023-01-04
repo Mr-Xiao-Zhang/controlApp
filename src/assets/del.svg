@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-删除</title>
+    <g id="管控界面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="08-3-应用管理-待审批" transform="translate(-297.000000, -180.000000)">
+            <g id="列表/通过" transform="translate(16.000000, 160.000000)">
+                <g id="icon-删除" transform="translate(281.000000, 20.000443)">
+                    <rect id="矩形" fill-opacity="0.01" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="15.9991135" height="15.9991135"></rect>
+                    <polyline id="路径" stroke="#F95151" stroke-linejoin="round" points="4.99972298 3.99977838 5.39970082 1.66657433 10.5994127 1.66657433 10.9993906 3.99977838"></polyline>
+                    <line x1="1.99988919" y1="3.99977838" x2="13.9992243" y2="3.99977838" id="路径" stroke="#F95151" stroke-linecap="round"></line>
+                    <polygon id="路径" stroke="#F95151" stroke-linecap="round" stroke-linejoin="round" points="12.33265 3.99977838 11.6660203 14.3325392 4.33309325 14.3325392 3.66646352 3.99977838"></polygon>
+                    <line x1="6.33298244" y1="11.6660203" x2="9.66613109" y2="11.6660203" id="路径" stroke="#F95151" stroke-linecap="round"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

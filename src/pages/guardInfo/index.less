@@ -1,0 +1,72 @@
+@import '../../themes/index.less';
+
+.container {
+  background: @bgColor;
+  min-height: 100vh;
+
+  :global(.adm-list-item-content-main) {
+    padding: 12px 0;
+  }
+
+  .body {
+    :global(.adm-form-item-label) {
+      font-size: 15px;
+      font-weight: 400;
+    }
+
+    padding: 16px;
+    --gap: 24px;
+
+    .box {
+      --gap: 10px;
+
+      .title {
+        font-weight: 600;
+        color: #333333;
+        font-size: 17px;
+        color: #333333;
+      }
+
+      .boxBody {
+        padding: 0 16px;
+        background: @defaultCardBgColor;
+        border-radius: 8px;
+        font-size: 15px;
+
+        .item {
+          padding: 16px 0;
+          border-bottom: 0.5px solid #e4e4e4;
+
+          .Label {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            color: #666666;
+          }
+        }
+      }
+
+      .addGuardItem {
+        --gap: 6px;
+        margin: 0 0 16px 16px;
+        padding: 16px 16px 0 0;
+        color: @headerBgColor;
+        font-size: 15px;
+      }
+    }
+  }
+
+  .footer {
+    background: @defaultCardBgColor;
+    border-radius: 8px;
+    padding: 16px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #f95151;
+    margin-bottom: 80px;
+  }
+}
+
+.inputText {
+  --font-size: 15px;
+}

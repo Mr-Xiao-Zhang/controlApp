@@ -1,0 +1,38 @@
+@import '../../themes/index.less';
+
+.container {
+  background: @bgColor;
+  min-height: 100vh;
+
+  .body {
+    --gap: 16px;
+    padding: 16px;
+
+    .item {
+      background: @defaultCardBgColor;
+      border-radius: 8px;
+      padding: 16px;
+      font-size: 16px;
+      color: #333333;
+
+      & > div:first-child {
+        width: 70%;
+        word-wrap: break-word;
+      }
+
+      .allowText {
+        font-size: 13px;
+        color: @headerBgColor;
+      }
+
+      .prohibitText {
+        color: #999999;
+      }
+
+      .switchBtn {
+        --width: 32px;
+        --height: 18px;
+      }
+    }
+  }
+}

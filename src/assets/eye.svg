@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组</title>
+    <g id="管控界面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="07-学生头像" transform="translate(-319.000000, -715.000000)">
+            <g id="基本信息备份-2" transform="translate(16.000000, 666.000000)">
+                <g id="昵称" transform="translate(0.000000, 34.000000)">
+                    <g id="编组" transform="translate(303.000000, 15.000000)">
+                        <rect id="矩形" fill-opacity="0.01" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="24" height="24"></rect>
+                        <path d="M12,18 C17.52285,18 22,12 22,12 C22,12 17.52285,6 12,6 C6.47715,6 2,12 2,12 C2,12 6.47715,18 12,18 Z" id="路径" stroke="#333333" stroke-width="2" stroke-linejoin="round"></path>
+                        <path d="M12,14.5 C13.3807,14.5 14.5,13.3807 14.5,12 C14.5,10.6193 13.3807,9.5 12,9.5 C10.6193,9.5 9.5,10.6193 9.5,12 C9.5,13.3807 10.6193,14.5 12,14.5 Z" id="路径" stroke="#333333" stroke-width="2" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

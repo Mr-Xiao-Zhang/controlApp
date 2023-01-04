@@ -1,0 +1,49 @@
+@import '../../themes/index.less';
+
+.container {
+  background: @bgColor;
+  min-height: 100vh;
+
+  .header {
+    background: @headerBgColor;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .avatar {
+      --size: 64px;
+      margin-bottom: 16px;
+    }
+
+    .name {
+      font-size: 17px;
+      font-weight: 500;
+      color: #ffffff;
+      margin-bottom: 10px;
+    }
+
+    .desc {
+      width: 100%;
+      font-size: 13px;
+      font-weight: 400;
+      color: #ffffff;
+
+      :global(.adm-space-item) {
+        display: flex;
+      }
+    }
+  }
+
+  .body {
+    --gap: 16px;
+    padding: 16px;
+
+    .item {
+      font-weight: 400;
+      color: #333333;
+      padding: 16px;
+      background: @defaultCardBgColor;
+    }
+  }
+}

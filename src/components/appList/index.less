@@ -1,0 +1,28 @@
+@import '../../themes/index.less';
+
+.appList {
+  background: @defaultCardBgColor;
+  border-radius: 8px;
+
+  .item {
+    height: 56px;
+    padding: 12px;
+    border-bottom: 0.5px solid #e4e4e4;
+
+    .nameText {
+      font-size: 15px;
+      font-weight: 500;
+      color: #333333;
+    }
+
+    .timeText {
+      font-size: 13px;
+      font-weight: 400;
+      color: #999999;
+    }
+  }
+
+  .item:last-child {
+    border: none;
+  }
+}

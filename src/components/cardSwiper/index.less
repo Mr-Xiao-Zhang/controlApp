@@ -1,0 +1,37 @@
+@import '../../themes/index.less';
+
+.container {
+  position: relative;
+  top: -56px;
+  margin: 0 16px;
+  height: 116px;
+  border-radius: 8px;
+  background: @defaultCardBgColor;
+  box-shadow: 0px -6px 24px 0px rgba(0, 0, 0, 0.1);
+  padding: 0 16px;
+
+  .card {
+    padding: 16px 0;
+    .upText {
+      font-size: 17px;
+      font-weight: 500;
+      color: #333333;
+    }
+
+    .downText {
+      font-weight: 400;
+      color: #999999;
+      font-size: 12px;
+    }
+
+    .downCon {
+      font-weight: 400;
+      color: #666666;
+      font-size: 14px;
+    }
+  }
+}
+
+:global(.adm-swiper-horizontal .adm-swiper-indicator) {
+  bottom: 8px;
+}
